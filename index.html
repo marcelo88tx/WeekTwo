@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Marcelo Martinelli</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form</title>
   </head>
-  <body>
-    <h1 align=center style="border: 2px solid black">Marcelo Martinelli - Full Stack Web Development</h1>
+  <body align=center>
+    <h1>Contact us</h1>
+    <form>
+        <div>
+            <label>Your name</label>
+            <div>
+                <input type="text" id="Name" name="Name" required>
+            </div>
     <br>
+        <div>
+            <label>Your email address</label>
+            <div>
+                <input type="email" id="Email" name="Email" required>
+            </div>
     <br>
+        <div>
+            <label>Your message</label>
+            <div>
+                <textarea id="Message" name="Message" rows="6" maxlength="3000" required></textarea>
+            </div>
     <br>
-    <center><img src="https://thumbs.dreamstime.com/b/professional-development-programmer-working-programming-website-software-coding-technology-writing-codes-data-code-132331729.jpg" alt="Programmer"></center>
+        <div>
+           <label>Priority</label>
+              <select>
+                <option>Low</option>
+                <option>Medium</option>
+                <option>High</option>
+              </select>
+        </div>
     <br>
-    <br>
-    <div>
-      <p align=center><font size="4">I would describe myself as innovative, creative, adaptable to change, a fast learner, and someone who is prepared to go above and beyond what is required.</font></p>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div style="background-color:black;color:white;padding:20px;"> <font size="6">
-      <p> <strong>Training Goals List</strong> </p>
-    <ul>
-      <li>Learn backend</li>
-      <li>Learn frontend</li>
-      <li>Develop projects</li>
-    </ul>
-    </font>
-    </div>
+        <div>
+            <button>Submit</button>
+        </div>
   </body>
 </html>
